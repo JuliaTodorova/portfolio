@@ -31,4 +31,40 @@ jQuery('.scrollup').click(function(){
 });
 
 
-// Landing page preloader
+// Magnific Popup Plugin
+
+$(document).ready(function() {
+    $('.parent-container').magnificPopup({
+        gallery: {
+          enabled: true
+                    },
+        delegate:'a',
+        type:'image'});   
+});
+
+$(document).ready(function(){
+    $('.parent-container').magnificPopup({
+        items:[{
+            src:'images/ffuc1.jpg',
+            title:'Fairfield United Chiurch'
+        },
+        {
+            src:'images/ffuc2.jpg',
+            title:'Fairfield United Chiurch'
+        },
+        {
+            src:'images/ffuc3.jpg',
+            title:'Fairfield United Chiurch'
+        },
+        {
+            src:'images/ffuc4.jpg',
+            title:'Fairfield United Chiurch'
+        },
+        ],
+        gallery:{
+            enabled:true
+        },
+        type:'image'
+
+    });
+});
