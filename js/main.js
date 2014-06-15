@@ -44,20 +44,16 @@ $(document).ready(function() {
 $(document).ready(function(){
     $('.parent-container').magnificPopup({
         items:[{
-            src:'images/ffuc1.png',
-            title:'Fairfield United Chiurch'
+            src:'images/ffuc-small-1.jpg',
+            title:'Mobile'
         },
         {
-            src:'images/ffuc2.png',
-            title:'Fairfield United Chiurch'
+            src:'images/ffuc-med-1.jpg',
+            title:'Tablet'
         },
         {
-            src:'images/ffuc3.png',
-            title:'Fairfield United Chiurch'
-        },
-        {
-            src:'images/ffuc4.png',
-            title:'Fairfield United Chiurch'
+            src:'images/ffuc-lg-1.jpg',
+            title:'Desktop'
         },
         ],
         gallery:{
