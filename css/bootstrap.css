@@ -315,6 +315,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  margin: 0 auto;
 }
 .img-rounded {
   border-radius: 6px;
@@ -734,24 +735,36 @@ pre code {
   overflow-y: scroll;
 }
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+
 }
 @media (min-width: 768px) {
   .container {
-    width: 750px;
+    width: 800px;
   }
 }
 @media (min-width: 992px) {
   .container {
-    width: 970px;
+    width: 850px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1050px){
+  .container{
+    width: 850px;
+  }
+}
+@media (min-width:1150px){
+  .container{
+    width: 980px;
+  }
+}
+@media (min-width: 1265px) {
   .container {
-    width: 1170px;
+    width: 1000px;
+  }
+}
+@media(min-width: 1490px){
+  .container{
+    width: 1200px;
   }
 }
 .container-fluid {
@@ -3451,6 +3464,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li {
   position: relative;
   display: block;
+  background-color: rgba(41,42,42,0.7);
 }
 .nav > li > a {
   position: relative;
@@ -3653,8 +3667,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-collapse {
   max-height: 340px;
-  padding-right: 15px;
-  padding-left: 15px;
   overflow-x: visible;
   -webkit-overflow-scrolling: touch;
   border-top: 1px solid transparent;
@@ -3689,8 +3701,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .container-fluid > .navbar-header,
 .container > .navbar-collapse,
 .container-fluid > .navbar-collapse {
-  margin-right: -15px;
-  margin-left: -15px;
+  margin-right: 0px;
+  margin-left: 0px
+  margin-top: 32px;
 }
 @media (min-width: 768px) {
   .container > .navbar-header,
@@ -3779,7 +3792,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-nav {
-  margin: 7.5px -15px;
+  margin: 0px;
 }
 .navbar-nav > li > a {
   padding-top: 10px;
@@ -4056,10 +4069,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
-  background-color: #333;
+  background-color: transparent;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
-  background-color: #fff;
+  background-color: #D9D9D9;
 }
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
@@ -5575,6 +5588,9 @@ button.close {
   text-shadow: none;
 }
 @media screen and (min-width: 768px) {
+  .nav li{
+    background-color: transparent;
+  }
   .carousel-control .glyphicon-chevron-left,
   .carousel-control .glyphicon-chevron-right,
   .carousel-control .icon-prev,

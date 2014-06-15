@@ -9,38 +9,9 @@ body{
 	max-width: 100%;
 	height: 825px;
     position: relative;
-    background: url("../images/forest-copy.jpg") no-repeat scroll 0px / cover transparent;
+    background: url("../images/forest-new.jpg") no-repeat scroll 0px / cover transparent;
     margin: 0 auto;
     background-color: #333333;
-}
-.top-nav{
-	margin-top: 30px;
-}	
-
-.top-nav ul{
-	margin: 0 auto;
-	padding: 0px;
-	text-align: center;
-}
-.top-nav li a:hover{
-	text-decoration: underline;
-}
-.top-nav ul li {
-  margin: auto;
-  display: inline-block;
-  padding-right: 20px;
-
-}
-.top-nav li a{
-	font-family: 'Lato', sans-serif;
-	font-size: 1.8em;
-	color: #d9d9d9;
-	margin: auto;
-	display: inline-block;
-	font-weight: lighter;
-}
-.last_li{
-	padding-right: 0px;
 }
 .name{
 	padding: 0px;
@@ -50,7 +21,7 @@ body{
 	color: #d9d9d9;
 	font-size: 4.0em;
 	text-align: center;
-	margin-top: 250px;
+	margin-top: 300px;
 	text-shadow: 1px 1px 1px#4A4A4A;
 }
 .intro{
@@ -63,18 +34,6 @@ body{
 	text-align: center;
 	margin:25px 0px;
 }
-#about
-{
-	min-height: 825px;
-	border-bottom: solid 1px #d9d9d9; 
-}
-#portfolio{
-	min-height: 625px;
-	border-bottom: solid 1px #d9d9d9; 
-}
-#portfolio .col-md-4{
-	margin-top: 75px;
-}
 #about h1,
 #portfolio h1,
 #photographs h1{
@@ -86,8 +45,65 @@ body{
 	margin-left: 50px;
 	margin-bottom: 50px;
 }
-/* About & Contact*/ 
+.navbar-toggle {
+    background-color: rgba(0, 0, 0, 0);
+    border: medium none;
+    border-radius: 0;
+    float: right;
+    margin-bottom: 8px;
+    margin-right: 15px;
+    margin-top: 6px;
+    padding: 9px 10px;
+    position: relative;
+    width: auto;
+}
+.navbar-collapse {
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: none;
+    text-align: right;
+    z-index: 99999;
+    max-height: 340px;
+    overflow-x: visible;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
 
+}
+.container{
+	padding-right: 0px;
+}
+.navbar-collapse {
+    text-align: right;
+    background-color: transparent;
+}
+.navbar-inverse{
+	background-color: transparent;
+	border-color: transparent;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+	border-color: transparent;
+}
+.navbar-inverse .navbar-nav > li > a{
+	font-family: 'Lato', sans-serif;
+	font-size: 1.3em;
+	color: #D9D9D9;
+	text-shadow: 3px #4A4A4A;
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+	text-decoration: underline;
+	color: #D9D9D9;
+}
+.navbar-inverse .navbar-nav > li > a:focus{
+	color: #D9D9D9;
+}
+ul.nav .navbar-nav .navbar-right{
+	margin-top: 35px;
+}
+/* About & Contact*/ 
+#about
+{
+	min-height: 825px;
+	border-bottom: solid 1px #d9d9d9; 
+}
 #about .col-md-12{
 	background-color: #d9d9d9;
 	min-height: 300px;
@@ -162,6 +178,13 @@ body{
 }
 
 /* Portfolio */
+#portfolio{
+	min-height: 625px;
+	border-bottom: solid 1px #d9d9d9; 
+}
+#portfolio .col-md-4{
+	margin-top: 75px;
+}
 
 #portfolio img{
 	margin: 0 auto;
@@ -309,15 +332,15 @@ ul.img-list li:hover div.text-content {
 	.intro{
 		font-size: 1.5em;
 	}
-	.top-nav ul li{
-		display: list-item;
-		list-style-type: none;
-	}
-	.top-nav ul li a{
-		text-decoration: none;
-	}
 	.carousel-control{
 		width: 20%;
+	}
+	
+	#about h1,
+	#portfolio h1,	
+	#photographs h1{
+		font-size: 1.8em;
+		margin-left: 15px;
 	}
 }
 
@@ -327,20 +350,10 @@ ul.img-list li:hover div.text-content {
 	.scrollup{
 		visibility: hidden;
 	}
-	.top-nav{
-		visibility: hidden;
-	}
-	.top-nav ul li{
-		display: list-item;
-		list-style-type: none;
-	}
-	.top-nav ul li a{
-		text-decoration: none;
-	}
 	#photographs h3.quote{
-		font-size: 1.4em;
-		line-height: 1.5;
-		margin: 0px 5px 55px 5px;
+		font-size: 1.2em;
+		line-height: 1.3;
+		margin: 0px 5px 45px 5px;
 
 	}
 	#introdution{
@@ -382,4 +395,3 @@ ul.img-list li:hover div.text-content {
 	}
 
 }
-
