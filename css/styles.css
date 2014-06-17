@@ -343,6 +343,15 @@ ul.img-list li:hover div.text-content {
 		font-size: 1.8em;
 		margin-left: 15px;
 	}
+
+	#introdution{
+	max-width: 100%;
+	height: 825px;
+    position: relative;
+    background: url("../images/test.jpg") no-repeat scroll 0px / cover transparent;
+    margin: 0 auto;
+    background-color: #333333;
+	}
 }
 
 /* 480px */
@@ -357,9 +366,6 @@ ul.img-list li:hover div.text-content {
 		margin: 0px 5px 45px 5px;
 
 	}
-	#introdution{
-		height: 650px;
-	}
 	.name{
 		margin: 175px 0 0;
 	}
@@ -372,6 +378,14 @@ ul.img-list li:hover div.text-content {
 		padding-right: 15px;
 
 	}
+	#introdution{
+	max-width: 100%;
+	height: 650px;
+    position: relative;
+    background: url("../images/test.jpg") no-repeat scroll 0px / cover transparent;
+    margin: 0 auto;
+    background-color: #333333;
+	}
 }
 
 @media screen and (min-width:480px){
@@ -382,10 +396,18 @@ ul.img-list li:hover div.text-content {
 	}
 
 }
-@media screen and (max-width: 980px){
+@media screen and (max-width:980px){
 	#portfolio .col-md-4{
 		margin-top: 10px;
 	}
+	#introdution{
+	max-width: 100%;
+    position: relative;
+    background: url("../images/background-image.jpg") no-repeat scroll 0px / cover transparent;
+    margin: 0 auto;
+    background-color: #333333;
+	}
+
 }
 @media screen and (min-width:980px){
 	#photographs h3.quote{
@@ -396,3 +418,4 @@ ul.img-list li:hover div.text-content {
 	}
 
 }
+
