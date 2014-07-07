@@ -25,7 +25,7 @@ $(document).ready(function(){
 });
 // scroll-to-top animate
 $('.scrollup').click(function(){
-    $("html, body").animate({ scrollTop: 0 }, 600);
+    $("html, body").animate({ scrollTop: 0 }, 400);
         return false;
     });
 });
