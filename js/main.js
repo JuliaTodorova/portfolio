@@ -13,11 +13,24 @@ $(document).ready(function()
 	});
 });
 
+// Change navigation
+
+$(document).ready (function () {
+    $(window).scroll (function () {
+        var sT = $(this).scrollTop();
+            if (sT >= 900) {
+                $('.navigation li a').addClass('navstyle')
+            }else {
+                $('.navigation li a').removeClass('navstyle')
+            }
+    });
+});
+    
 // scroll-to-top button show and hide
 
 $(document).ready(function(){
     $(window).scroll(function(){
-        if ($(this).scrollTop() > 100) {
+        if ($(this).scrollTop() > 450) {
             $('.scrollup').fadeIn();
         } else {
             $('.scrollup').fadeOut();
@@ -79,7 +92,20 @@ $(document).ready(function(){
     });
 });
 
+$(document).ready(function(){
+    $('.vicroyal').magnificPopup({
+        items:[{
+            src:'images/vicroyal.jpg',
+            title:'Victoria Royal Vacations'
+        },
+        ],
+        gallery:{
+            enabled:true
+        },
+        type:'image'
+    });
 
+});
 
 // On Click hide responsive nav 
 
