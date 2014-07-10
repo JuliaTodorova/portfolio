@@ -18,10 +18,10 @@ $(document).ready(function()
 $(document).ready (function () {
     $(window).scroll (function () {
         var sT = $(this).scrollTop();
-            if (sT >= 900) {
-                $('.navigation li a').addClass('navstyle')
+            if (sT >= 950) {
+                $('.navigation li a').css("color","#000").addClass('navstyle')
             }else {
-                $('.navigation li a').removeClass('navstyle')
+                $('.navigation li a').css("color","#fff").removeClass('navstyle')
             }
     });
 });
