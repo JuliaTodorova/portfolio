@@ -19,13 +19,24 @@ $(document).ready (function () {
     $(window).scroll (function () {
         var sT = $(this).scrollTop();
             if (sT >= 950) {
-                $('.navigation li a').css("color","#000").addClass('navstyle')
+                $('.navigation li a').css("color","#4a4a4a").addClass('navstyle')
             }else {
                 $('.navigation li a').css("color","#fff").removeClass('navstyle')
             }
     });
 });
-    
+
+$(document).ready(function(){
+    $(window).scroll (function(){
+        var containstyle = $(this).scrollTop();
+        if(containstyle >=950){
+            $('.container').css("background-color","#fff").css("border-bottom","1px solid #E5E4E4")
+        }else{
+            $('.container').css("background-color","transparent").css("border-bottom","none")
+        }
+
+    });
+});
 // scroll-to-top button show and hide
 
 $(document).ready(function(){

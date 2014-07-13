@@ -25,7 +25,6 @@ body{
  .navstyle{
  	height: 70px;
     background-color: #fff;
-    border-bottom: 1px solid #E5E4E4;
     -webkit-transition: all 600ms ease-in-out;
     -moz-transition: all 600ms ease-in-out;
     -ms-transition: all 600ms ease-in-out;
@@ -126,7 +125,7 @@ body{
 }
 .navbar-inverse{
 	background-color: transparent;
-	border-color: transparent;
+	border: none;
 }
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
 	border-color: transparent;
@@ -185,6 +184,7 @@ ul.nav .navbar-nav .navbar-right{
 	list-style-type: none;
 	display: inline-block;
 }
+.fa-file-text-o,
 .fa-tumblr,
 .fa-github,
 .fa-envelope-o,
@@ -213,6 +213,9 @@ ul.nav .navbar-nav .navbar-right{
 }
 .fa-tumblr{
 	color: 	#2C4762;
+}
+.fa-file-text-o{
+	color: #4A4A4A;
 }
 
 /* Me */
