@@ -21,7 +21,7 @@ $(document).ready (function () {
             if (sT >= 950) {
                 $('.navigation li a').css("color","#4a4a4a").addClass('navstyle')
             }else {
-                $('.navigation li a').css("color","#fff").removeClass('navstyle')
+                $('.navigation li a').css("color","#d9d9d9").removeClass('navstyle')
             }
     });
 });
