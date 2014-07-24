@@ -91,7 +91,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $('.beerapp').magnificPopup({
         items:[{
-            src:'images/BeerApp.jpg',
+            src:'images/beer.png',
             title: 'Beer App'
         },
         ],
