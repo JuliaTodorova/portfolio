@@ -13,30 +13,28 @@ $(document).ready(function()
 	});
 });
 
-// Change navigation
+// Inverse navigation
 
 $(document).ready (function () {
     $(window).scroll (function () {
         var sT = $(this).scrollTop();
             if (sT >= 950) {
-                $('.navigation li a').css("color","#4a4a4a").addClass('navstyle')
+                $('.navbar').addClass('navbar-inverse');
             }else {
-                $('.navigation li a').css("color","#d9d9d9").removeClass('navstyle')
+                $('.navbar').removeClass('navbar-inverse');
             }
     });
 });
 
-$(document).ready(function(){
-    $(window).scroll (function(){
-        var containstyle = $(this).scrollTop();
-        if(containstyle >=950){
-            $('.container').css("background-color","#fff").css("border-bottom","1px solid #E5E4E4")
-        }else{
-            $('.container').css("background-color","transparent").css("border-bottom","none")
-        }
+/*var mq = window.matchMedia("(max-width:767px)");
 
-    });
-});
+if(mq.matches){
+    $('.navigation li a').css("color","#4a4a4a").addClass('navstyle');
+    $('.container').css("background-color","#fff").css("border-bottom","1px solid #E5E4E4");
+}else{
+    $('.navigation li a').css("color","#d9d9d9").removeClass('navstyle');
+    $('.container').css("background-color","transparent").css("border-bottom","none");
+}*/
 // scroll-to-top button show and hide
 
 $(document).ready(function(){
